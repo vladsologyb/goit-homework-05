@@ -473,7 +473,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
         <button type="button" class="modal-btn">
           <svg class="modal-btn-icon" width="8" height="8">
@@ -523,6 +523,22 @@
                 <use href="./images/icons.svg#icon-email-black"></use>
               </svg>
             </div>
+          </div>
+          <div class="modal-field">
+            <label for="user-text" class="modal-label">Comment</label>
+            <textarea
+              name="user-text"
+              id="user-text"
+              class="modal-textarea"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div class="modal-field">
+            <input class="modal-check" type="checkbox" name="terms" id="terms" />
+            <label class="check-text" for="terms"></label>
+              <span class="check-text-box"></span> I accept the terms and conditions of the
+              <a class="privacy-policy-link" href=""> Privacy Policy </a></label
+            >
           </div>
           <button type="submit" class="modal-form-btn">Send</button>
         </form>
