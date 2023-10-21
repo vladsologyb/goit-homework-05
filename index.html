@@ -471,9 +471,29 @@
             </li>
           </ul>
         </div>
+        <div class="footer-subscribe-container">
+          <p class="footer-address-text">Subscribe</p>
+          <form class="footer-form">
+            <label class="footer-label" for="footer-email">
+              <input
+                class="footer-input"
+                type="email"
+                name="footer-email"
+                id="email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="footer-form-btn" type="submit">
+              Subscribe
+              <svg class="footer-btn-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-frame-3"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button type="button" class="modal-btn">
           <svg class="modal-btn-icon" width="8" height="8">
@@ -534,9 +554,19 @@
             ></textarea>
           </div>
           <div class="modal-field">
-            <input class="modal-check" type="checkbox" name="terms" id="terms" />
-            <label class="check-text" for="terms"></label>
-              <span class="check-text-box"></span> I accept the terms and conditions of the
+            <input
+              class="modal-check visually-hidden"
+              type="checkbox"
+              name="terms"
+              id="terms"
+            />
+            <label class="check-text" for="terms"
+              ><span class="check-text-box">
+                <svg class="check-text-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-vector-click"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
               <a class="privacy-policy-link" href=""> Privacy Policy </a></label
             >
           </div>
